@@ -9,7 +9,7 @@ const port = process.env.PORT || 3001
 
 // Set up a response for the root path of the application
 app.get('/', (req, res) => {
-  res.send("What did you eat for lunch?")
+  res.send("fish & carrot")
 })
 
 // Set the application to listen a port
